@@ -23,6 +23,7 @@ gem 'jbuilder', '~> 2.7'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'uglifier',     '4.2.0'
 gem 'jquery-rails', '4.3.5'
+gem 'bootstrap-sass', :git => 'https://github.com/twbs/bootstrap-sass.git', :branch => 'next'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
