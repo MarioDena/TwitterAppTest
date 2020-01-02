@@ -27,7 +27,7 @@ gem 'bootstrap-sass', :git => 'https://github.com/twbs/bootstrap-sass.git', :bra
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
-
+gem 'bcrypt',         '3.1.13'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
