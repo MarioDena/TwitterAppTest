@@ -1,9 +1,13 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-$gray-medium-light: #eaeaea;
+$gray-medium-light: #ff0000;
 
 /* universal */
+.type{
+  display: flex;
+}
+
 
 body {
   padding-top: 60px;
@@ -63,6 +67,7 @@ p {
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
+  position: absolute;
   &:hover {
     color: white;
     text-decoration: none;
@@ -173,3 +178,31 @@ input {
     color: $state-danger-text;
   }
 }
+
+.navbar-nav { 
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.navbar{
+  height: 70px;
+}
+
+.navbar-right{
+  position: absolute;
+  margin-top: -25px;
+  right: 130px;
+  width: 300px;
+  height: 70px;
+  
+}
+
+.btn2{
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+
