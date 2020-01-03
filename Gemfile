@@ -6,7 +6,7 @@ ruby '2.6.5'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.2'
 # Use sqlite3 as the database for Active Record
-
+gem 'faker'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
@@ -24,6 +24,10 @@ gem 'jbuilder', '~> 2.7'
 gem 'uglifier',     '4.2.0'
 gem 'jquery-rails', '4.3.5'
 gem 'bootstrap-sass', :git => 'https://github.com/twbs/bootstrap-sass.git', :branch => 'next'
+
+gem 'will_paginate'          
+gem 'bootstrap-will_paginate'
+
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
